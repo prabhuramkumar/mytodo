@@ -12,12 +12,9 @@
     "angular-animate": "1.2.16",
     "angular-touch": "1.2.16",
     "angular-route": "1.2.16",
-<<<<<<< Updated upstream
-    "angular-local-storage": "~0.1.5"
-=======
+    "angular-local-storage": "~0.1.5",
     "angular-ui-sortable": "~0.13.1",
     "jquery-ui": "~1.11.2"
->>>>>>> Stashed changes
   },
   "devDependencies": {
     "angular-mocks": "1.2.16",
