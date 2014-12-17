@@ -9,7 +9,7 @@
  */
 angular.module('mytodoGitApp')
   .controller('MainCtrl', function ($scope, localStorageService) {
-    $scope.todos = ['Item 1', 'Item 2', 'Item 3'];
+    $scope.todos = [];
     
     $scope.addTodo = function () {
       $scope.todos.push($scope.todo);

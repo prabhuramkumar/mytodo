@@ -9,7 +9,7 @@
  * Main module of the application.
  */
 angular
-  .module('mytodoGitApp', [
+  .module('mytodoGitApp',[
     'ngAnimate',
     'ngCookies',
     'ngResource',
@@ -17,6 +17,7 @@ angular
     'ngSanitize',
     'ngTouch',
     'LocalStorageModule'
+    'ui.sortable'
   ])
   .config(['localStorageServiceProvider', function(localStorageServiceProvider){
     localStorageServiceProvider.setPrefix('ls');
